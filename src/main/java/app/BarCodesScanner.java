@@ -24,7 +24,7 @@ public class BarCodesScanner {
         String barCode;
 
         do {
-            System.out.println("Podaj bar code");
+            System.out.println("Enter bar-code");
             barCode = scanner.nextLine();
             if (barCode.isEmpty()) {
                 System.out.println("Invalid bar-code");
